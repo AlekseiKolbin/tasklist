@@ -1,0 +1,31 @@
+/* Шрифт ко всем формам */
+form{
+    font-family: 'Kufam', cursive;
+}
+
+/* Размеры ячейки */
+td{
+    max-width: 500px;
+    word-wrap: break-word;
+}
+
+/* Главный контейнер */
+.index_container{
+    border: 1px solid grey;
+    border-radius: 50px;
+    margin: auto;
+    height: auto;
+    padding: 50px;
+    width: 500px;
+}
+
+/* Контейнер меню */
+.menu_container{
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+
+/* Контейнер списка */
+.list_container{
+    padding-top: 10px;
+}
