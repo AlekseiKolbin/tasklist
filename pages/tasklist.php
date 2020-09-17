@@ -82,7 +82,7 @@ for ($data = []; $row = mysqli_fetch_assoc($result) ; $data[] = $row);
 				<? foreach ($data as $task) { ?>
 					<tr>
 						<td style="color:<?if(htmlspecialchars($task['status']) == 1):?>green<?php endif;?>;"><?= htmlspecialchars($task['description'])?></td>
-						<td><input type="checkbox" name="checked[]" value="<?=htmlspecialchars($task[id]) ?>" /></td>
+						<td><input type="checkbox" name="checked[]" value="<?=htmlspecialchars($task['id']) ?>" /></td>
 					</tr>
 				<? } ?>
 			</table>
